@@ -2,6 +2,6 @@ version: '3.8'
 
 services:
  guvicontainer:
-  images: guvi
-  port:
+  image: guvi
+  ports:
   - '3000:80'
